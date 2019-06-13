@@ -8,7 +8,7 @@
 
 <script>
 import { getRecommendData } from "@/api/api";
-import MSwiper from "@/components/Swiper/swiper";
+import MSwiper from "@/components/Swiper";
 export default {
   data() {
     return {};

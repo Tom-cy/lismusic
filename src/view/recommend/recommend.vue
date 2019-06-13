@@ -1,5 +1,6 @@
 <template>
   <div>
+    <m-swiper></m-swiper>
 
   </div>
 </template>
@@ -7,6 +8,7 @@
 
 <script>
 import { getRecommendData } from "@/api/api";
+import MSwiper from "@/components/Swiper/swiper";
 export default {
   data() {
     return {};
@@ -20,6 +22,7 @@ export default {
         console.log(res);
       });
     }
-  }
+  },
+  components: { MSwiper }
 };
 </script>

@@ -12,6 +12,7 @@
 <script>
 import MHeader from "@/components/Header";
 import MTab from "@/components/Tab";
+
 export default {
   components: { MHeader, MTab }
 };

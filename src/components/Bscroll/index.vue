@@ -35,6 +35,11 @@ export default {
       type: Boolean,
       default: true
     },
+    // 当快速在屏幕上滑动一段距离的时候，会根据滑动的距离和时间计算出动量，并生成滚动动画。设置为 true 则开启动画。
+    momentum: {
+      type: Boolean,
+      default: true
+    },
     // 当滚动超过边缘的时候会有一小段回弹动画。设置为 true 则开启动画。
     bounce: {
       type: Boolean,
